@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# R
+#   R scripting front-end version 4.1.2 (2021-11-01)
+
 #
 # Need to make mm10+eGFP+mKate genome and target file for BWA
 #
