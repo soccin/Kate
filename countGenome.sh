@@ -1,5 +1,18 @@
 #!/bin/bash
 
+#
+# samtools
+#   Program: samtools (Tools for alignments in the SAM format)
+#   Version: 1.9 (using htslib 1.9)
+#
+# bedtools
+#   Version:   v2.27.1
+#   About:     developed in the quinlanlab.org and by many contributors worldwide.
+#   Docs:      http://bedtools.readthedocs.io/
+#   Code:      https://github.com/arq5x/bedtools2
+#   Mail:      https://groups.google.com/forum/#!forum/bedtools-discuss
+#
+
 BAM=$1
 
 BASE=$(basename ${BAM/.bam/})
