@@ -39,5 +39,5 @@ echo "$BASE $group $TOTAL" | tr " " "\t" >${BAM/.bam/__total.txt}
 samtools view -F 2048 -q 30 -h $BAM \
   | fgrep -v "XA:Z:" \
   | samtools view -Sb - \
-  | bedtools coverage -a genome/contigs/targetB.bed -b - >${BAM/.bam/__cov.txt}
+  | bedtools coverage -a genome/targetB.bed -b - >${BAM/.bam/__cov.txt}
 
